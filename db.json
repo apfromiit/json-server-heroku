@@ -1,16 +1,53 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
+  "posts": [
+      {
+          "title": "json-server4",
+          "author": "typicode4",
+          "id": 2
+      },
+      {
+          "id": 3,
+          "title": "json-server",
+          "author": "typicode"
+      },
+      {
+          "title": "json-server4",
+          "author": "typicode4",
+          "id": 1
+      },
+      {
+          "title": "json-server",
+          "author": "typicode",
+          "id": 4
+      },
+      {
+          "title": "json-server",
+          "author": "typicode",
+          "id": 5
+      }
   ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ]
+  "comments": [
+      {
+          "author": {
+              "name": "typicode"
+          },
+          "comment": "hello"
+      },
+      {
+          "author": {
+              "name": "typicode"
+          },
+          "comment": "hi"
+      },
+      {
+          "author": {
+              "name": "typicode"
+          },
+          "comment": "bye"
+      }
+  ],
+  "profile": {
+      "name": "test1",
+      "age": 3
+  }
 }
