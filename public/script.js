@@ -2,7 +2,7 @@ function ResourceItem({ name, length }) {
   return `
     <li>
       <a href="${name}">/${name}</a>
-      <sup>${length ? `${length}x` : 'object'}</sup>
+      <sup>${length ? `${length} ${name}` : 'object'}</sup>
     </li>
   `
 }
@@ -62,7 +62,7 @@ function CustomRoutesBlock({ customRoutes }) {
         </table>
       </div>
     `
-  }
+  } else return ``
 }
 
 window
